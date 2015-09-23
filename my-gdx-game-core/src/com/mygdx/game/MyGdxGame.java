@@ -32,6 +32,8 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 		// table.add(addressLabel);
 		// table.add(addressText).width(100);
 
+		// Something new
+
 		Gdx.input.setInputProcessor(this);
 	}
 
