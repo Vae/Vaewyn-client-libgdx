@@ -18,7 +18,9 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 	@Override
 	public void create() {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("testbg.jpg");
+
+		// Adding some comments
 
 		// Label nameLabel = new Label("Name:", skin);
 		// TextField nameText = new TextField("", skin);
